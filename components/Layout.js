@@ -6,7 +6,9 @@ const Layout = (props) => {
       <Head>
         <title>{props.pageTitle}</title>
         <meta charSet="UTF-8" />
+        <meta name="robots" content="index, follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="Transportadora Boa Viagem" content="Site da Transportadora Boa Viagem" />
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <link
           rel="stylesheet"
